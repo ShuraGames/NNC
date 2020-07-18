@@ -16,7 +16,7 @@ public class PostHorizontal : MonoBehaviour
     void Update()
     {
         if(DistanceToPlayer() <= maxDistance){
-            animator.SetBool("PHTrue", true);
+            animator.SetBool("isPlayer", true);
         }
     }
 

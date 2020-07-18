@@ -15,7 +15,7 @@ public class RandomBuffEffect : MonoBehaviour
             }
         }
     }
-    private bool activeEffect = false; 
+    private bool activeEffect = false;
     public bool ActiveEffect {
         get {
             return activeEffect;
@@ -26,8 +26,7 @@ public class RandomBuffEffect : MonoBehaviour
     }
  
     private byte Chanse;
-
-    [Header("List buff")]
+    
     [SerializeField]List<GameObject> buffEffect;
     [SerializeField]private GlobalSetting globalSetting;
 
@@ -38,13 +37,14 @@ public class RandomBuffEffect : MonoBehaviour
         RandomFuckEffect();
     }
 
-    void RandomFuckEffect(){
-        int percent = Random.Range(0, 100);
+    void RandomFuckEffect()
+    {
+        var percent = Random.Range(0, 100);
 
-        if( percent <= Chanse ){
+        if( percent <= Chanse )
+        {
             activeEffect = true;            
             buffEffect[buffNomber].SetActive(true);
-            Debug.Log((buffNomber).ToString() + " :Active " + buffEffect[buffNomber].name);
         }
     }
 }

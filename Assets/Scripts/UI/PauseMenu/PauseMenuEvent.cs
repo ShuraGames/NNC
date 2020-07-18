@@ -46,6 +46,7 @@ public class PauseMenuEvent : MonoBehaviour
         PlayerSataticSet.hitCount = 0;
         PlayerSataticSet.loseGame = false;
         PlayerSataticSet.ScoreCountSet = gS.countScoreDef;
+        PlayerAttack.TwoCount = false;
         Time.timeScale = 1f;
     }
 

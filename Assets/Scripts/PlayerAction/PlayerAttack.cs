@@ -7,7 +7,6 @@ public class PlayerAttack : MonoBehaviour
 {
 
      //Перенести в отдельный класс, если будет такая возможность. 
-    public static float BulletSpeed = 35f;
     public byte hitCount;
     public static int ActiveOrb;
     public static bool TwoCount = false;

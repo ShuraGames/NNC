@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 8269244798895655068}
   - component: {fileID: -1813362629026200683}
   - component: {fileID: -1469365747020843583}
-  - component: {fileID: 8858205013768698226}
+  - component: {fileID: 1435768230}
   m_Layer: 0
   m_Name: FrameLeft
-  m_TagString: Untagged
+  m_TagString: Glass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,14 +90,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7709762725223480384}
   serializedVersion: 2
-  m_Mass: 30
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &-1469365747020843583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 376f9ddd40fb7854087ec21e3936b821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &8858205013768698226
+--- !u!65 &1435768230
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,8 +118,8 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7709762725223480384}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.6458027, y: 0.779772, z: 0.19999999}
-  m_Center: {x: -1.4533252, y: 12.688142, z: 0}
+  m_Center: {x: -1.4533242, y: 12.688138, z: 0}

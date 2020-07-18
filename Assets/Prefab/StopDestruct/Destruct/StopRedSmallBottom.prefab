@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 314334453166183155}
   - component: {fileID: 6296090476968209930}
   - component: {fileID: -2965028424147295723}
-  - component: {fileID: 7956212894993362583}
-  - component: {fileID: 2316207207425625006}
+  - component: {fileID: 680819998}
+  - component: {fileID: 4125268165545626992}
   m_Layer: 0
   m_Name: StopRedSmallBottom
-  m_TagString: Untagged
+  m_TagString: Glass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,15 +91,28 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5718695091254254294}
   serializedVersion: 2
-  m_Mass: 30
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &7956212894993362583
+  m_CollisionDetection: 3
+--- !u!65 &680819998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5718695091254254294}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.362593, y: 1.1861691, z: 0.100000024}
+  m_Center: {x: 0.048731584, y: -0.037427057, z: -0.001424741}
+--- !u!114 &4125268165545626992
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,19 +121,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5718695091254254294}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 376f9ddd40fb7854087ec21e3936b821, type: 3}
+  m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &2316207207425625006
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5718695091254254294}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.362593, y: 1.1861691, z: 0.100000024}
-  m_Center: {x: 0.048731346, y: -0.037427057, z: -0.001424741}
+  clickParent: {fileID: 0}
+  upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
+    type: 3}

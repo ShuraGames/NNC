@@ -10,8 +10,12 @@ public class PlayerMove : MonoBehaviour
     {
         transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
 
-        if(PlayerSataticSet.BallCount <= 0){
-            PlayerSataticSet.loseGame = true;
+        if(PlayerSataticSet.BallCount == 0)
+        {
+            if(Input.GetMouseButtonDown(0))
+            {
+                PlayerSataticSet.loseGame = true;
+            }
         }
     }
 }

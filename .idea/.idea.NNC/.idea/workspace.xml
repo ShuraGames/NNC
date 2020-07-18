@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f3cfdfd-adf5-4a9f-8abc-cea57a5cc1d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/StopDestruct/StopDestruct.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/StopDestruct/StopDestruct.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/UIPrefab/ChildTextCount.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/UIPrefab/ChildTextCount.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lvl1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lvl1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAction/CheckPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyAction/CheckPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAction/RandomBuffEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyAction/RandomBuffEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Glass/GlassDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Glass/GlassDeath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Glass/RbGlass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Glass/RbGlass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAction/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAction/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAction/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAction/PlayerAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Black.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-BlackItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Bold SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Bold SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Bold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-BoldItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-ExtraBold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-ExtraBoldItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-ExtraLight.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-ExtraLightItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Italic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Light.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-LightItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Medium.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-MediumItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-SemiBold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-SemiBoldItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-Thin.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/Exo2-ThinItalic.ttf.meta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerAction/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerAction/PlayerAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Glass/GlassDeath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAction/CheckPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Progress/CountUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAction/RandomBuffEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Glass/RbGlass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAction/DefaultEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Event/BallCount.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAction/RandomBuffEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Glass/GlassDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAction/AttackManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAction/DefaultEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAction/PlayerAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAction/CheckPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Event/BallCount.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Glass/RbGlass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAction/Bullet.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eg2vSDbfY1quP6TachEwphtqDa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowExplorer.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f3cfdfd-adf5-4a9f-8abc-cea57a5cc1d3" name="Default Changelist" comment="" />
+      <created>1594729151029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594729151029</updated>
+      <workItem from="1594729175353" duration="4827000" />
+      <workItem from="1595015331443" duration="3165000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1496" height="836" key="VCS.FileHistoryDialog" timestamp="1594750086454">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="92" y="92" width="1496" height="836" key="VCS.FileHistoryDialog/1680.203.1366.738/0.0.1680.1020@0.0.1680.1020" timestamp="1594750086454" />
+    <state x="503" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1595015420938">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="503" y="220" width="672" height="678" key="search.everywhere.popup/1680.203.1366.738/0.0.1680.1020@0.0.1680.1020" timestamp="1595015420938" />
+  </component>
+</project>

@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 2887283427302120810}
   - component: {fileID: 8875813737814876563}
   - component: {fileID: 2358203186842586187}
-  - component: {fileID: 4819567811572313384}
-  - component: {fileID: 397496669840710554}
+  - component: {fileID: 1157550602}
+  - component: {fileID: 6096065618838087862}
   m_Layer: 0
   m_Name: StopRedSmallLeft
-  m_TagString: Untagged
+  m_TagString: Glass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,15 +91,28 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7138750342810752335}
   serializedVersion: 2
-  m_Mass: 30
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &4819567811572313384
+  m_CollisionDetection: 3
+--- !u!65 &1157550602
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7138750342810752335}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.83219326, y: 0.54797494, z: 0.100000024}
+  m_Center: {x: -0.259786, y: 0.72601235, z: -9.947958e-15}
+--- !u!114 &6096065618838087862
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,19 +121,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7138750342810752335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 376f9ddd40fb7854087ec21e3936b821, type: 3}
+  m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &397496669840710554
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7138750342810752335}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.83219326, y: 0.54797494, z: 0.100000024}
-  m_Center: {x: -0.259786, y: 0.72601235, z: -9.947958e-15}
+  clickParent: {fileID: 0}
+  upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
+    type: 3}

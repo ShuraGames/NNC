@@ -24,7 +24,6 @@ public class GlassDeath : MonoBehaviour
     void GlassDestruct(){
         if(lifeGlass <= 0){
             Destroy(gameObject);    
-            Debug.Log("Lol");
             PlayerSataticSet.ScoreCountSet += 5;
             GameObject destruct = (GameObject)Instantiate(KillGlassOne);
             destruct.transform.position = transform.position;   
@@ -32,14 +31,14 @@ public class GlassDeath : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if(other.tag == "Player"){
+        if(other.CompareTag("Player")){
             var ballCountMinus = Random.Range(2, 5);
             lifeGlass -= 2;
             GlassDestruct();
             PlayerSataticSet.BallCount -= ballCountMinus;
             upCountTextPref.GetComponent<CountUp>().DonwCountText(ballCountMinus);
-            var CountInts = Instantiate(upCountTextPref, clickParent);
-            Destroy(CountInts, 1);
+            var countInstantiate = Instantiate(upCountTextPref, clickParent);
+            Destroy(countInstantiate, 1);
             PlayerSataticSet.hitCount = 0;
         }
     }

@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 8119177209288606007}
   - component: {fileID: 2562994369994145230}
   - component: {fileID: 2283056928465927481}
-  - component: {fileID: 6932192128157669968}
-  - component: {fileID: 8931345866954680277}
+  - component: {fileID: 1348488751}
+  - component: {fileID: 2908051018307315869}
   m_Layer: 0
   m_Name: StickLeftTopTop
-  m_TagString: Untagged
+  m_TagString: Glass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2561751525196652736, guid: d63e57fb03b0d0a4688d2b451b5884f5, type: 3}
+  - {fileID: 2100000, guid: bad10dedf5fda434997547d251a91e1e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -90,15 +90,28 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4300167712954485010}
   serializedVersion: 2
-  m_Mass: 30
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &6932192128157669968
+  m_CollisionDetection: 3
+--- !u!65 &1348488751
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4300167712954485010}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.39096975, y: 0.6820669, z: 0.08759182}
+  m_Center: {x: 5.4539377e-14, y: 5.021706, z: -0.04379585}
+--- !u!114 &2908051018307315869
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,19 +120,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4300167712954485010}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 376f9ddd40fb7854087ec21e3936b821, type: 3}
+  m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &8931345866954680277
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4300167712954485010}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.39096975, y: 0.6820669, z: 0.08759182}
-  m_Center: {x: 5.4539377e-14, y: 5.02171, z: -0.04379585}
+  clickParent: {fileID: 0}
+  upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
+    type: 3}

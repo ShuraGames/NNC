@@ -6,20 +6,22 @@ public class CheckPlayer : MonoBehaviour
 {
 
     [SerializeField]private GameObject player;
-    private byte hitCount;
-    private bool TwoCount, ThreeCount; 
     [SerializeField]private GlobalSetting globalSetting;
 
-     private void Start() {
+    private int hitCount;
+    private bool TwoCount, ThreeCount;
+     private void Start()
+     {
          hitCount = player.GetComponent<PlayerAttack>().hitCount; 
-    }
+     }
 
     void Update()
     {
         CheckPlayerCollider();
     }
 
-    void CheckPlayerCollider(){
+    void CheckPlayerCollider()
+    {
 
         RaycastHit hit;
 
@@ -31,11 +33,13 @@ public class CheckPlayer : MonoBehaviour
         }
     }
 
-    void isCheck(RaycastHit hit){
+    void isCheck(RaycastHit hit)
+    {
         player = hit.collider.gameObject;
         PlayerAttack.ActiveOrb = globalSetting.ActiveOrb;
         hitCount = globalSetting.hitCount;
         PlayerAttack.TwoCount = false;
         PlayerAttack.ThreeCount = false;
+        PlayerSataticSet.hitCount = 0;
     }
 }

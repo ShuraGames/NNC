@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ShuraProger\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ShuraProger\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_NNC.-1363995363.00" t="ExcludeRecursive" />
+    <e p="E:\NNC" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Door" t="Include">
+            <e p="LastCheck.cs" t="Include" />
+            <e p="OpenDoor.cs" t="Include" />
+          </e>
+          <e p="EnemyAction" t="Include">
+            <e p="CheckPlayer.cs" t="Include" />
+            <e p="DefaultEnemy.cs" t="Include" />
+            <e p="RandomBuffEffect.cs" t="Include" />
+          </e>
+          <e p="Glass" t="Include">
+            <e p="GlassDeath.cs" t="Include" />
+            <e p="RbGlass.cs" t="Include" />
+          </e>
+          <e p="Global" t="Include">
+            <e p="ActiveElementInDistance.cs" t="Include" />
+            <e p="GlobalSetting.cs" t="Include" />
+          </e>
+          <e p="PlayerAction" t="Include">
+            <e p="Bullet.cs" t="Include" />
+            <e p="CheckPoint.cs" t="Include" />
+            <e p="PlayerAttack.cs" t="Include" />
+            <e p="PlayerMove.cs" t="Include" />
+          </e>
+          <e p="Static" t="Include">
+            <e p="PlayerSataticSet.cs" t="Include" />
+          </e>
+          <e p="StopPost" t="Include">
+            <e p="PostHorizontal.cs" t="Include" />
+            <e p="PostStopAnimation.cs" t="Include" />
+          </e>
+          <e p="TextAnimation" t="Include">
+            <e p="TextFlashing.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Event" t="Include">
+              <e p="BallCount.cs" t="Include" />
+              <e p="ScoreCount.cs" t="Include" />
+            </e>
+            <e p="LoseGameEvent" t="Include">
+              <e p="LoseGame.cs" t="Include" />
+            </e>
+            <e p="MainMenu" t="Include">
+              <e p="EventMainMenu.cs" t="Include" />
+            </e>
+            <e p="PauseMenu" t="Include">
+              <e p="BlurRenderer.cs" t="Include" />
+              <e p="PauseMenuEvent.cs" t="Include" />
+            </e>
+            <e p="Progress" t="Include">
+              <e p="CountUp.cs" t="Include" />
+              <e p="ProgressBar.cs" t="Include" />
+            </e>
+            <e p="Setting" t="Include">
+              <e p="LoadSetting.cs" t="Include" />
+              <e p="MusicSetting.cs" t="Include" />
+              <e p="SaveSettingPlayer.cs" t="Include" />
+              <e p="Setting.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="NNC.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
