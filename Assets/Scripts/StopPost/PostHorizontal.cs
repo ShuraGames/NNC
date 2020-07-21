@@ -15,12 +15,14 @@ public class PostHorizontal : MonoBehaviour
 
     void Update()
     {
-        if(DistanceToPlayer() <= maxDistance){
+        if(DistanceToPlayer() <= maxDistance)
+        {
             animator.SetBool("isPlayer", true);
         }
     }
 
-    private  float DistanceToPlayer(){
+    private  float DistanceToPlayer()
+    {
         float distance = Vector3.Distance(transform.position, player.transform.position);
         return distance;
     }

@@ -71,7 +71,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_ECD5530C: {r: 5.1937165, g: 10.680627, b: 0.041884813, a: 1}
+    - Color_ECD5530C: {r: 4.126176, g: 8.47419, b: 0.044367485, a: 1}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 2, g: 0.13333334, b: 0.93333334, a: 1}

@@ -26,8 +26,10 @@ public class CheckPlayer : MonoBehaviour
         RaycastHit hit;
 
         if(Physics.Raycast(transform.position + transform.up, transform.forward, out hit, 200f ) 
-        || Physics.Raycast(transform.position, -transform.up, out hit, 200f )){
-            if(hit.collider.tag == "Player"){       
+        || Physics.Raycast(transform.position, -transform.up, out hit, 200f ))
+        {
+            if(hit.collider.tag == "Check")
+            {       
                 isCheck(hit);
             }
         }

@@ -5,10 +5,13 @@ using UnityEngine;
 
 public class ScoreCount : MonoBehaviour
 {
-    [SerializeField]private Text scoreCount;
+    [SerializeField] private Text scoreCount;
+    [SerializeField] private Text maxScoreCount;
+    [SerializeField] GlobalSetting globalSetting;
     
     void Update()
     {
         scoreCount.text = PlayerSataticSet.ScoreCountSet.ToString();
+        maxScoreCount.text = globalSetting.maxScoreCountMainMenu.ToString();
     }
 }

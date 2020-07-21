@@ -91,14 +91,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7138750342810752335}
   serializedVersion: 2
-  m_Mass: 0.01
+  m_Mass: 0.001
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!65 &1157550602
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -110,7 +110,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.83219326, y: 0.54797494, z: 0.100000024}
+  m_Size: {x: 0.83219326, y: 0.54797494, z: 0.5}
   m_Center: {x: -0.259786, y: 0.72601235, z: -9.947958e-15}
 --- !u!114 &6096065618838087862
 MonoBehaviour:
@@ -124,6 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickParent: {fileID: 0}
+  activeDamage: 0
   upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
     type: 3}
+  globalSetting: {fileID: 11400000, guid: 6f4cb8381e031174c878ba4e1d2dba83, type: 2}

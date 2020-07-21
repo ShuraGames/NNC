@@ -17,12 +17,14 @@ public class Bullet : MonoBehaviour
         MoveBullet();
     }
 
-    void MoveBullet(){
+    void MoveBullet()
+    {
         transform.Translate(Vector3.forward * 35f * Time.deltaTime);
         Destroy(gameObject, 10f);
     }   
 
-    private void OnTriggerEnter(Collider other) {
+    private void OnTriggerEnter(Collider other) 
+    {
         
         if(other.tag == "EnemyElectro" )
         {
@@ -74,9 +76,10 @@ public class Bullet : MonoBehaviour
 
                 if (rbColliders != null)
                 {
-                    rbColliders.AddExplosionForce(4f, transform.position, 5f);
+                    rbColliders.AddExplosionForce(4f, transform.position, 4f);
                     colliders[i].GetComponent<Collider>().enabled = false;
                     rbColliders.useGravity = true;
+                    Destroy(colliders[i].gameObject, 3);
                 }
             }
             

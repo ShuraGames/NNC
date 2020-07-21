@@ -4,18 +4,15 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float moveSpeed;
-
+    [SerializeField] private GlobalSetting globalSetting;
     void Update()
     {
-        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        transform.Translate(Vector3.forward * PlayerSataticSet.playerSpeed * Time.deltaTime);
 
-        if(PlayerSataticSet.BallCount == 0)
+        if(PlayerSataticSet.BallCount <= 0)
         {
             if(Input.GetMouseButtonDown(0))
-            {
                 PlayerSataticSet.loseGame = true;
-            }
         }
     }
 }

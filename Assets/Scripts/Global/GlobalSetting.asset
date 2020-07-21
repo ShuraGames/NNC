@@ -17,7 +17,7 @@ MonoBehaviour:
   ActiveOrb: 0
   percentBuffSpawn: 5
   countScoreDef: 0
-  musicVoumeInSetting: 0.28404722
+  musicVoumeInSetting: 0
   graphicQualityInSetting: 2
-  maxScoreCount: 0
-  maxScoreCountMainMenu: 0
+  maxScoreCount: 35
+  maxScoreCountMainMenu: 35

@@ -15,7 +15,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!65 &4303727464512933874
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41,10 +41,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickParent: {fileID: 0}
+  activeDamage: 0
   upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
     type: 3}
-  activeDamage: 0
+  globalSetting: {fileID: 11400000, guid: 6f4cb8381e031174c878ba4e1d2dba83, type: 2}
 --- !u!54 &8489213173971422205
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -60,7 +60,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!65 &4962973672498378171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86,10 +86,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickParent: {fileID: 0}
+  activeDamage: 0
   upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
     type: 3}
-  activeDamage: 0
+  globalSetting: {fileID: 11400000, guid: 6f4cb8381e031174c878ba4e1d2dba83, type: 2}
 --- !u!54 &8303304129782561747
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -105,7 +105,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!65 &2912053984203055842
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -131,10 +131,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickParent: {fileID: 0}
+  activeDamage: 0
   upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
     type: 3}
-  activeDamage: 0
+  globalSetting: {fileID: 11400000, guid: 6f4cb8381e031174c878ba4e1d2dba83, type: 2}
 --- !u!54 &590115371597215151
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -150,7 +150,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!65 &4312864087592475359
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -176,10 +176,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickParent: {fileID: 0}
+  activeDamage: 0
   upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
     type: 3}
-  activeDamage: 0
+  globalSetting: {fileID: 11400000, guid: 6f4cb8381e031174c878ba4e1d2dba83, type: 2}
 --- !u!54 &7663269964229482055
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -195,7 +195,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!65 &2225316199080899499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -221,10 +221,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickParent: {fileID: 0}
+  activeDamage: 0
   upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
     type: 3}
-  activeDamage: 0
+  globalSetting: {fileID: 11400000, guid: 6f4cb8381e031174c878ba4e1d2dba83, type: 2}
 --- !u!54 &2703161451141423044
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -240,7 +240,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!65 &5324335840667485392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -266,10 +266,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickParent: {fileID: 0}
+  activeDamage: 0
   upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
     type: 3}
-  activeDamage: 0
+  globalSetting: {fileID: 11400000, guid: 6f4cb8381e031174c878ba4e1d2dba83, type: 2}
 --- !u!54 &8488995668201023383
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -285,7 +285,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!65 &6264621411406107313
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -311,10 +311,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickParent: {fileID: 0}
+  activeDamage: 0
   upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
     type: 3}
-  activeDamage: 0
+  globalSetting: {fileID: 11400000, guid: 6f4cb8381e031174c878ba4e1d2dba83, type: 2}
 --- !u!1 &7658882094800165331
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +368,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!65 &4256224222121009091
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -394,10 +394,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickParent: {fileID: 0}
+  activeDamage: 0
   upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
     type: 3}
-  activeDamage: 0
+  globalSetting: {fileID: 11400000, guid: 6f4cb8381e031174c878ba4e1d2dba83, type: 2}
 --- !u!1001 &400334563305279948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -464,6 +464,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SBBottomRedfbx
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 556d5b1715424184489053333bc9e525,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 556d5b1715424184489053333bc9e525, type: 3}
@@ -546,6 +551,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SBTopLeft
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3c860adebbe769e41b07476a949188cc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c860adebbe769e41b07476a949188cc, type: 3}
 --- !u!1 &6674439930950815942 stripped
@@ -626,6 +636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SBMidleLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 38806d707b874cc448b6010e0b93421d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38806d707b874cc448b6010e0b93421d, type: 3}
@@ -708,6 +723,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SBTopRight
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7f4e8810f0fb89c4aa1b2fb732059511,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f4e8810f0fb89c4aa1b2fb732059511, type: 3}
 --- !u!4 &708572528840776522 stripped
@@ -788,6 +808,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SBBottomLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a74b5fbde185f094a840580291c70efe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a74b5fbde185f094a840580291c70efe, type: 3}
@@ -870,6 +895,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SBMidleRight
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 99d52f699f5e8084194f746c278b6b5f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d52f699f5e8084194f746c278b6b5f, type: 3}
 --- !u!1 &3356295104289179502 stripped
@@ -951,6 +981,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SBBottomRight
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 4bc835a12fc824446a5d3147a4438493,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bc835a12fc824446a5d3147a4438493, type: 3}
 --- !u!4 &2888307439176751467 stripped
@@ -1031,6 +1066,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SBMidleBig
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 81988786497be164998c9e621373600b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81988786497be164998c9e621373600b, type: 3}

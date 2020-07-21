@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6025968471962975812}
-  - component: {fileID: 4616168686651992668}
   m_Layer: 0
   m_Name: StopDestruct
   m_TagString: Untagged
@@ -63,19 +62,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &4616168686651992668
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816544510724924916}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 8.5, y: 4, z: 1}
-  m_Center: {x: 0.13, y: 0.05, z: 0}
 --- !u!114 &8692717186633097181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,9 +74,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026544dacc862fa4a98f30f238c794d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickParent: {fileID: 0}
+  activeDamage: 0
   upCountTextPref: {fileID: 3996580568002156118, guid: a2d1e4bd418c5f1419bb9b20102b64da,
     type: 3}
+  globalSetting: {fileID: 11400000, guid: 6f4cb8381e031174c878ba4e1d2dba83, type: 2}
 --- !u!1001 &197658986315566006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -998,6 +985,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6025968471962975812}
     m_Modifications:
+    - target: {fileID: -1813362629026200683, guid: 6f99bb13f64238a44a00a02322cc7239,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: -1813362629026200683, guid: 6f99bb13f64238a44a00a02322cc7239,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435768230, guid: 6f99bb13f64238a44a00a02322cc7239, type: 3}
+      propertyPath: m_Size.z
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6675967978005646931, guid: 6f99bb13f64238a44a00a02322cc7239,
         type: 3}
       propertyPath: m_LocalPosition.x

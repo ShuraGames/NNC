@@ -24,7 +24,7 @@ public class BallCount : MonoBehaviour
     {
         Collider[] colliders = Physics.OverlapSphere(transform.position, 3f);
 
-        if(colliders.Length >= 3)
+        if(colliders.Length > 3)
         {
             if(colliders[3].CompareTag("Glass"))
             {

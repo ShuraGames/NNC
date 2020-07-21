@@ -9,7 +9,7 @@ public class CheckPoint : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
         if(other.tag == "Player"){            
-            player.GetComponent<PlayerMove>().moveSpeed += checkSpeedBoost;
+            PlayerSataticSet.playerSpeed += checkSpeedBoost;
         }
     }
 }

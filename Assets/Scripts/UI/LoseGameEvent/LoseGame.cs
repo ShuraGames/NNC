@@ -23,11 +23,13 @@ public class LoseGame : MonoBehaviour
         }
     }
 
-    void ExitToMainMenu(){
+    void ExitToMainMenu()
+    {
         SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 
-    void ScoreTheLvl(){
-
+    public void LoadNextLevel(int index)
+    {
+        SceneManager.LoadScene(index, LoadSceneMode.Single);
     }
 }

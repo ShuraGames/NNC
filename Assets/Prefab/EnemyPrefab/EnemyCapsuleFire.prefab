@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 509025712340410001}
   - component: {fileID: 509025712340410002}
   - component: {fileID: 7672733147581952650}
+  - component: {fileID: -8378933090819585416}
   m_Layer: 0
   m_Name: EnemyCapsuleFire
   m_TagString: EnemyFire
@@ -151,6 +152,22 @@ MonoBehaviour:
   - {fileID: 527377701137289652}
   - {fileID: 509025711333097065}
   globalSetting: {fileID: 11400000, guid: 6f4cb8381e031174c878ba4e1d2dba83, type: 2}
+--- !u!54 &-8378933090819585416
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509025712340410004}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &510995276165821035
 PrefabInstance:
   m_ObjectHideFlags: 0
