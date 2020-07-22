@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b4ac6563e80c54747ab8349596389252
+guid: 49420896c80be4643b74b67c7ffddd97
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: LightRed
-    second: {fileID: 2100000, guid: 827a10f9a8641df40848ea1b8f05e453, type: 2}
+      name: LBlue
+    second: {fileID: 2100000, guid: dfc414ce3380270499a9293b6b3d3741, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -49,7 +49,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 6
+    globalScale: 5
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -95,7 +95,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 6
+    globalScale: 5
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

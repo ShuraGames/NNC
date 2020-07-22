@@ -26,8 +26,8 @@ Material:
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -66,9 +66,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - IOR: 0.02
+    - IOR: -0.07
     - Vector1_23715BF1: 0
-    - Vector1_9665F74A: 0.31
+    - Vector1_9665F74A: 4.16
     - Vector1_AF1D7131: -0.2
     - Vector1_CE9BB0EA: 23.35
     - _AlbedoMap: 0
@@ -104,7 +104,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_FB40B104: {r: 0.11372547, g: 0.8509622, b: 0.85882354, a: 0.65882355}
+    - Color_FB40B104: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 0.039649345, g: 0.49727315, b: 0.764151, a: 1}
     - _Color: {r: 0.15566039, g: 0.8218649, b: 1, a: 1}
     - _EmissionColor: {r: 0.08597367, g: 0.31580445, b: 0.7924528, a: 1}

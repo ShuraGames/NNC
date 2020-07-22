@@ -5,9 +5,19 @@ using UnityEngine;
 public class CheckPoint : MonoBehaviour
 {
     [SerializeField]private Camera player;
-    [SerializeField]private float checkSpeedBoost = 0.5f;
+    [SerializeField]private float checkSpeedBoost;
 
-    private void OnTriggerEnter(Collider other) {
+
+    private void Update() {
+
+        Debug.Log(PlayerSataticSet.playerSpeed.ToString());
+    }
+
+
+
+
+    private void OnTriggerEnter(Collider other) 
+    {
         if(other.tag == "Player"){            
             PlayerSataticSet.playerSpeed += checkSpeedBoost;
         }

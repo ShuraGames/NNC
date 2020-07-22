@@ -8695,7 +8695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 73208548}
-  checkSpeedBoost: 0.5
+  checkSpeedBoost: 1
 --- !u!65 &683329153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12511,7 +12511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 73208548}
-  checkSpeedBoost: 0.5
+  checkSpeedBoost: 1
 --- !u!65 &1085362817
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12652,7 +12652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 73208548}
-  checkSpeedBoost: 0.5
+  checkSpeedBoost: 1
 --- !u!65 &1088213319
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14322,7 +14322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 73208548}
-  checkSpeedBoost: 0.5
+  checkSpeedBoost: 1
 --- !u!65 &1256459857
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20666,7 +20666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 73208548}
-  checkSpeedBoost: 0.5
+  checkSpeedBoost: 1
 --- !u!65 &1931971432
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ public class Bullet : MonoBehaviour
     [SerializeField]private int damagePurple;
     [SerializeField]private GameObject hitEffect;
 
-    void Update()
+    void FixedUpdate()
     {
         MoveBullet();
     }
@@ -76,7 +76,7 @@ public class Bullet : MonoBehaviour
 
                 if (rbColliders != null)
                 {
-                    rbColliders.AddExplosionForce(4f, transform.position, 4f);
+                    rbColliders.AddExplosionForce(2f, transform.position, 2f);
                     colliders[i].GetComponent<Collider>().enabled = false;
                     rbColliders.useGravity = true;
                     Destroy(colliders[i].gameObject, 3);

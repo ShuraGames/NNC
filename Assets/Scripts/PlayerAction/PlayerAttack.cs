@@ -6,7 +6,6 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
 
-     //Перенести в отдельный класс, если будет такая возможность. 
     public byte hitCount;
     public static int ActiveOrb;
     public static bool TwoCount = false;
