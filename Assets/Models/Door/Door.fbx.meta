@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 7851075bf0a664f42a76bc22b02b0d43
 ModelImporter:
-  serializedVersion: 19300
+  serializedVersion: 19301
   internalIDToNameTable:
   - first:
       74: -7664930950914795581
@@ -21,6 +21,42 @@ ModelImporter:
   - first:
       74: -8393443805898035329
     second: Cube.022|Cube.022Action.001
+  - first:
+      74: 3395952211075117519
+    second: Cube.032|Cube.032|Cube.021|Cube.021Action|Cube.021|Cube.021Action
+  - first:
+      74: 532891479564039112
+    second: Cube.032|Cube.032|Cube.021|Cube.022Action.001|Cube.021|Cube.022Action.00
+  - first:
+      74: -6875906995069812539
+    second: Cube.032|Cube.032|Cube.021|Cube.022Action|Cube.021|Cube.022Action
+  - first:
+      74: 3220072448368558907
+    second: Cube.032|Cube.035|Cube.022|Cube.021Action|Cube.022|Cube.021Action
+  - first:
+      74: 4899708325651711196
+    second: Cube.032|Cube.035|Cube.022|Cube.022Action.001|Cube.022|Cube.022Action.00
+  - first:
+      74: 1255346475389492199
+    second: Cube.032|Cube.035|Cube.022|Cube.022Action|Cube.022|Cube.022Action
+  - first:
+      74: 2568673143483421327
+    second: Cube.035|Cube.032|Cube.021|Cube.021Action|Cube.021|Cube.021Action
+  - first:
+      74: 2189802559070862882
+    second: Cube.035|Cube.032|Cube.021|Cube.022Action.001|Cube.021|Cube.022Action.00
+  - first:
+      74: 3236221030765549621
+    second: Cube.035|Cube.032|Cube.021|Cube.022Action|Cube.021|Cube.022Action
+  - first:
+      74: 5815871125896040830
+    second: Cube.035|Cube.035|Cube.022|Cube.021Action|Cube.022|Cube.021Action
+  - first:
+      74: -374355177870998164
+    second: Cube.035|Cube.035|Cube.022|Cube.022Action.001|Cube.022|Cube.022Action.00
+  - first:
+      74: -5794168377916200827
+    second: Cube.035|Cube.035|Cube.022|Cube.022Action|Cube.022|Cube.022Action
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -30,7 +66,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Light.001
+    second: {fileID: 2100000, guid: 45ca2afe2af557e42b831587313bb969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Wall
+    second: {fileID: 2100000, guid: 45ca2afe2af557e42b831587313bb969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall.001
     second: {fileID: 2100000, guid: 45ca2afe2af557e42b831587313bb969, type: 2}
   materials:
     materialImportMode: 1
@@ -71,6 +117,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1

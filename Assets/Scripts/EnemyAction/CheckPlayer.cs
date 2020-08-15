@@ -12,7 +12,7 @@ public class CheckPlayer : MonoBehaviour
     private bool TwoCount, ThreeCount;
      private void Start()
      {
-         hitCount = player.GetComponent<PlayerAttack>().hitCount; 
+         
      }
 
     void Update()
@@ -26,7 +26,10 @@ public class CheckPlayer : MonoBehaviour
         RaycastHit hit;
 
         if(Physics.Raycast(transform.position + transform.up, transform.forward, out hit, 200f ) 
-        || Physics.Raycast(transform.position, -transform.up, out hit, 200f ))
+        || Physics.Raycast(transform.position, -transform.right, out hit, 200f) 
+        || Physics.Raycast(transform.position, transform.right, out hit, 200f)
+        || Physics.Raycast(transform.position, transform.forward, out hit, 200f)
+        || Physics.Raycast(transform.position, transform.forward, out hit, 200f))
         {
             if(hit.collider.tag == "Check")
             {       

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class CollisionWithGlass : MonoBehaviour
 {
+    [SerializeField] private StressReceiver shake;
+    [SerializeField] private float shakeStress;
+
     private void OnTriggerEnter(Collider other)
     {
         Collider[] colliders = Physics.OverlapSphere(transform.position, 3f);
@@ -18,6 +21,7 @@ public class CollisionWithGlass : MonoBehaviour
                     rbColliders.AddExplosionForce(4f, transform.position, 5f);
                     colliders[i].GetComponent<Collider>().enabled = false;
                     rbColliders.useGravity = true;
+                    shake.InduceStress(shakeStress);
                 }
             }
         }          

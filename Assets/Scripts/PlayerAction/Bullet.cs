@@ -12,12 +12,13 @@ public class Bullet : MonoBehaviour
     [SerializeField]private int damagePurple;
     [SerializeField]private GameObject hitEffect;
 
-    void FixedUpdate()
+
+    private void FixedUpdate()
     {
         MoveBullet();
     }
 
-    void MoveBullet()
+    private void MoveBullet()
     {
         transform.Translate(Vector3.forward * 35f * Time.deltaTime);
         Destroy(gameObject, 10f);
@@ -61,6 +62,7 @@ public class Bullet : MonoBehaviour
             { 
                 PlayerAttack.ActiveOrb = other.GetComponent<RandomBuffEffect>().BuffNomber + 1;
             }
+            MusicSinlton.musicSinlton.PlayMusic(0);
             other.GetComponent<DefaultEnemy>().healthEnemy -= damage;
             CreateHit();
             Destroy(gameObject);
@@ -68,7 +70,7 @@ public class Bullet : MonoBehaviour
         else if(other.CompareTag("Glass"))
         {
             Collider[] colliders = Physics.OverlapSphere(transform.position, 1.8f);
-
+            MusicSinlton.musicSinlton.PlayMusic(1);
              
             for (var i = 0; i < colliders.Length; i++)
             {

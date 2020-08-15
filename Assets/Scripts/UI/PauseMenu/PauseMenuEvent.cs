@@ -13,7 +13,8 @@ public class PauseMenuEvent : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            if(!pauseMenuPanel.activeSelf){
+            if(!pauseMenuPanel.activeSelf)
+            {
                 OpenPauseMenu();
             } 
             else
@@ -25,7 +26,8 @@ public class PauseMenuEvent : MonoBehaviour
 
     public void OpenPauseMenu()
     {
-        if(!pauseMenuPanel.activeSelf){
+        if(!pauseMenuPanel.activeSelf)
+        {
             Time.timeScale = 0f;
             pauseMenuPanel.SetActive(true);
         }

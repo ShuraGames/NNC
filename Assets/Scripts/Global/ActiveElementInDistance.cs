@@ -8,10 +8,15 @@ public class ActiveElementInDistance : MonoBehaviour
     [SerializeField]private Transform player;
     [SerializeField]private GameObject roomIsActive;
 
-    private void Update() {
+    private void Update() 
+    {
         distance = Vector3.Distance(transform.position, player.position);
-        if(distance <= 60f){
-            roomIsActive.SetActive(true);
+        if(distance <= 60f)
+        {
+            if(roomIsActive != null) 
+            {
+                roomIsActive.SetActive(true);
+            }
         }
     }
 }

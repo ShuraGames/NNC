@@ -58377,6 +58377,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6123b828621cda04b87529a9467226c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buffNomber: 0
+  Chanse: 0
   buffEffect:
   - {fileID: 2279837345601457052}
   - {fileID: 9128148013249999521}

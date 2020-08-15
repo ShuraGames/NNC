@@ -9,5 +9,4 @@ public class PlayerSataticSet
     public static bool loseGame = false;
     public static int ScoreCountSet = 0;
     public static float playerSpeed = 5;
-
 }

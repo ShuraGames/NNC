@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class RandomBuffEffect : MonoBehaviour
 {
-    private int buffNomber;
     public int BuffNomber {
         get{
             return buffNomber;
@@ -25,15 +24,21 @@ public class RandomBuffEffect : MonoBehaviour
         }
     }
  
-    private byte Chanse;
-    
-    [SerializeField]List<GameObject> buffEffect;
-    [SerializeField]private GlobalSetting globalSetting;
+    [SerializeField] private int buffNomber = 5;
+    [SerializeField] private byte Chanse = 0;
+    [SerializeField] private List<GameObject> buffEffect;
+    [SerializeField] private GlobalSetting globalSetting;
 
     void Start()
     {
-        buffNomber = Random.Range(0, 3);
-        Chanse = globalSetting.percentBuffSpawn;
+        if(buffNomber == 0)
+        {
+            buffNomber = Random.Range(0, 3);
+        }
+        if(Chanse == 0)
+        {
+            Chanse = globalSetting.percentBuffSpawn;
+        }
         RandomFuckEffect();
     }
 

@@ -7,6 +7,7 @@ public class GlassAction : MonoBehaviour
     public bool activeDamage = false;
 
     [SerializeField]private GameObject upCountTextPref;
+    
     private Transform clickParent;
 
     private void Start() 
@@ -28,5 +29,9 @@ public class GlassAction : MonoBehaviour
             PlayerSataticSet.hitCount = 0;
             activeDamage = true;
             PlayerSataticSet.playerSpeed = 5;
+            PlayerAttack.ActiveOrb = 0;
+            PlayerAttack.TwoCount = false;
+            PlayerAttack.ThreeCount = false;
+            PlayerSataticSet.hitCount = 0;
     }
 }

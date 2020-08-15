@@ -69,6 +69,8 @@ MonoBehaviour:
   Player: {fileID: 0}
   dist: 0
   nameAnimation: OpenDoor
+  distanceToPlayer: 30
+  table: {fileID: 0}
 --- !u!1001 &4928479527601906332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76,6 +78,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4928479528676306177}
     m_Modifications:
+    - target: {fileID: -4976443005151972041, guid: 8eab14ea847853342bd2861a7ecb6b3d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 8eab14ea847853342bd2861a7ecb6b3d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -135,6 +142,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StartTextDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8eab14ea847853342bd2861a7ecb6b3d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692962385675917919, guid: 8eab14ea847853342bd2861a7ecb6b3d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8eab14ea847853342bd2861a7ecb6b3d, type: 3}
@@ -305,6 +322,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bcfb6f04308e504989d491464b91b2c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcfb6f04308e504989d491464b91b2c, type: 3}

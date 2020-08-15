@@ -12,18 +12,23 @@ public class DefaultEnemy : MonoBehaviour
     [SerializeField]private int ReversBall;
     [SerializeField]private GameObject UpCountTextPref;
     [SerializeField]private GameObject deathEffect;
+
     private CountUp UcTp;
 
-    private void Start() {
+    private void Start() 
+    {
         UcTp = UpCountTextPref.GetComponent<CountUp>();
     }
 
-    private void Update() {
+    private void Update() 
+    {
         DeathObj();
     }
 
-    void DeathObj(){
-        if(healthEnemy <= 0) {
+    void DeathObj()
+    {
+        if(healthEnemy <= 0) 
+        {
             PlayerSataticSet.hitCount += 1;
             PlayerSataticSet.BallCount += ReversBall;
             PlayerSataticSet.ScoreCountSet += 5;

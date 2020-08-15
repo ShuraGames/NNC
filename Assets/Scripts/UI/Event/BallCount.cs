@@ -9,15 +9,17 @@ public class BallCount : MonoBehaviour
     
     [SerializeField]private TextMeshProUGUI countBall;
     [SerializeField]private GlobalSetting  gS;
+    [SerializeField]private PlayerAttack playerAttack;
 
     void Start()
     {
         countBall.text = gS.StartBallCount.ToString();
+        playerAttack.minusBall += OnBallCountChanged;
     }
 
-    void Update()
+    void OnBallCountChanged(int changeBall)
     {
-        countBall.text = PlayerSataticSet.BallCount.ToString();
+        countBall.text = changeBall.ToString();
     }
 
     private void OnTriggerEnter(Collider other) 

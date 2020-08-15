@@ -1,14 +1,14 @@
 fileFormatVersion: 2
 guid: ce64d9f696dfb5a4fab727390c234483
 ModelImporter:
-  serializedVersion: 19300
+  serializedVersion: 19301
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Foglight
-    second: {fileID: 2100000, guid: 3d82bb17cb854b8478a2fd5d8f087289, type: 2}
+    second: {fileID: 2100000, guid: 45ca2afe2af557e42b831587313bb969, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -23,12 +23,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: TextLightTwo
-    second: {fileID: 2100000, guid: 3d82bb17cb854b8478a2fd5d8f087289, type: 2}
+    second: {fileID: 2100000, guid: 45ca2afe2af557e42b831587313bb969, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: WhiteLight
-    second: {fileID: 2100000, guid: dfc414ce3380270499a9293b6b3d3741, type: 2}
+    second: {fileID: 2100000, guid: 45ca2afe2af557e42b831587313bb969, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -68,6 +68,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1

@@ -19,6 +19,14 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField]private Camera mainCamera;
     [SerializeField]private GlobalSetting globalSetting;
 
+    public delegate void MinusBall(int ball);
+    public event MinusBall minusBall;
+
+    private void Awake() 
+    {        
+        PlayerSataticSet.BallCount = globalSetting.StartBallCount;
+    }
+
     void Start()
     {
         hitCount = globalSetting.hitCount;
@@ -30,32 +38,39 @@ public class PlayerAttack : MonoBehaviour
         hitCount = PlayerSataticSet.hitCount;
         HitCountReset();
         if(Time.timeScale == 1f){
-            if(Input.GetMouseButtonDown(0)){
-                if(PlayerSataticSet.BallCount > 0){
+            if(Input.GetMouseButtonDown(0))
+            {
+                if(PlayerSataticSet.BallCount > 0)
+                {
                     MainShotAction();
                     PlayerSataticSet.BallCount -= 1;
+                    minusBall?.Invoke(PlayerSataticSet.BallCount);
                 }
             }
         }
     }
 
-    void MainShotAction() {
+    void MainShotAction() 
+    {
         RaycastHit hit;
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         
-        if(Physics.Raycast(ray, out  hit, 350.0f))
+        if(Physics.Raycast(ray, out  hit, 5000.0f))
         {
             Instantiate(bulletObj[ActiveOrb], shotPointMain.position, Quaternion.LookRotation(ray.direction));
-            if(TwoCount){
+            if(TwoCount)
+            {
                 Instantiate(bulletObj[ActiveOrb], shotPoint.position, Quaternion.LookRotation(ray.direction));
-                if(ThreeCount){
+                if(ThreeCount)
+                {
                     Instantiate(bulletObj[ActiveOrb], shotPoint2.position, Quaternion.LookRotation(ray.direction));
                 }
             }
         }
     }
 
-    void HitCountReset(){
+    void HitCountReset()
+    {
         hitCountSlider.value = hitCount;
 
         if(hitCount == 10 && TwoCount){

@@ -5,7 +5,13 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     [SerializeField] private GlobalSetting globalSetting;
-    void Update()
+
+    private void Start() 
+    {
+        StartCoroutine(BoostSpeed());
+    }
+
+    void FixedUpdate()
     {
         transform.Translate(Vector3.forward * PlayerSataticSet.playerSpeed * Time.deltaTime);
 
@@ -13,6 +19,15 @@ public class PlayerMove : MonoBehaviour
         {
             if(Input.GetMouseButtonDown(0))
                 PlayerSataticSet.loseGame = true;
+        }
+    }
+
+    private IEnumerator BoostSpeed()
+    {
+        while(true)
+        {
+            PlayerSataticSet.playerSpeed += 0.5f;
+            yield return new WaitForSeconds(10);
         }
     }
 }
